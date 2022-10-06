@@ -1,0 +1,65 @@
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>AR web demo</title>
+    <script src='https://aframe.io/releases/0.9.2/aframe.min.js'></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+    <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <script>
+        THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
+    </script>
+</head>
+
+<body style='margin: 0; overflow: hidden;'>
+    <a-scene
+        vr-mode-ui="enabled: false"
+        embedded
+        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+
+        <a-entity gltf-model="./assets/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 12.489820; latitude: 41.892590;"/>
+        
+        <a-camera gps-camera rotation-reader></a-camera>
+    </a-scene>
+</body>
+</html>
+-->
+
+<html>
+<!-- Import the component -->
+<head>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<style>
+	.body {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	#id {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	h1 {
+		margin: 20px auto 40px;
+	}
+</style>
+
+<body>
+	<div class="body">
+		<h1>Test app for VRT</h1>
+		<p>Нажмите на кнопку в углу превью модели, далее выберите локацию для размещения модели. Можно перемещать модель drag`n drop-ом, а также редактировать ее размер двумя пальцами</p>
+
+		<!-- Use it like any other HTML element -->
+		<model-viewer id="model-test" alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National 	Air and Space Museum" src="./assets/khokhloma_hat/khokhloma_hat.gltf" enable-pan ar-modes="webxr scene-viewer quick-look" ar camera-controls></model-viewer>
+	</div>
+</body>
+
+</html>
+
+<!-- ./assets/glb/source/Allosaurus.glb -->
