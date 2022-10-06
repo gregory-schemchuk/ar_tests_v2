@@ -149,17 +149,17 @@
         {
             "mimeType" : "image/jpeg",
             "name" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_N",
-            "uri" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_N.jpg"
+            "uri" : "main_Normal.jpg"
         },
         {
             "mimeType" : "image/jpeg",
             "name" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_1",
-            "uri" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_1.jpg"
+            "uri" : "main_Base_color.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_R",
-            "uri" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_R.png"
+            "uri" : "main_Roughness.png"
         },
         {
             "mimeType" : "image/png",
