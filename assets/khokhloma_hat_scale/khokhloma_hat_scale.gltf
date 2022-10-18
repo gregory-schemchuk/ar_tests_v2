@@ -1,12 +1,8 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
         "version" : "2.0"
     },
-    "extensionsUsed" : [
-        "KHR_materials_specular",
-        "KHR_materials_ior"
-    ],
     "scene" : 0,
     "scenes" : [
         {
@@ -27,10 +23,15 @@
                 0,
                 0.7071068286895752
             ],
+            "scale" : [
+                0.012588403187692165,
+                0.012588403187692165,
+                0.012588403187692165
+            ],
             "translation" : [
-                0,
-                27.7528076171875,
-                2.266789436340332
+                -0.002965591847896576,
+                0.007875442504882812,
+                0.020735502243041992
             ]
         },
         {
@@ -42,41 +43,24 @@
                 0,
                 0.7071068286895752
             ],
+            "scale" : [
+                0.012588403187692165,
+                0.012588403187692165,
+                0.012588403187692165
+            ],
             "translation" : [
-                -0.06165558099746704,
-                27.799800872802734,
-                1.1376699209213257
+                -0.0037417374551296234,
+                0.00846719741821289,
+                0.006521701812744141
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "extensions" : {
-                "KHR_materials_specular" : {
-                    "specularColorFactor" : [
-                        0.6786989141662153,
-                        0.6786989141662153,
-                        0.6786989141662153
-                    ]
-                },
-                "KHR_materials_ior" : {
-                    "ior" : 1.4500000476837158
-                }
-            },
             "name" : "main",
-            "normalTexture" : {
-                "index" : 0,
-                "scale" : 0.10000002384185791
-            },
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 1
-                },
-                "metallicFactor" : 0,
-                "metallicRoughnessTexture" : {
-                    "index" : 2
-                }
+                "metallicFactor" : 0
             }
         },
         {
@@ -84,11 +68,11 @@
             "name" : "details",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 3
+                    "index" : 0
                 },
                 "metallicFactor" : 0,
                 "metallicRoughnessTexture" : {
-                    "index" : 4
+                    "index" : 1
                 }
             }
         }
@@ -131,45 +115,18 @@
         {
             "sampler" : 0,
             "source" : 1
-        },
-        {
-            "sampler" : 0,
-            "source" : 2
-        },
-        {
-            "sampler" : 0,
-            "source" : 3
-        },
-        {
-            "sampler" : 0,
-            "source" : 4
         }
     ],
     "images" : [
         {
-            "mimeType" : "image/jpeg",
-            "name" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_N",
-            "uri" : "main_Normal.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_1",
-            "uri" : "main_Base_color.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "1648758493_3-gamerwall-pro-p-fon-v-stile-russkikh-skazok-krasivie-3_R",
-            "uri" : "main_Roughness.png"
-        },
-        {
             "mimeType" : "image/png",
             "name" : "details_Base_color",
-            "uri" : "details_Base_color.png"
+            "uri" : "khokhloma_hat_scale/details_Base_color.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "details_Roughness",
-            "uri" : "details_Roughness.png"
+            "uri" : "khokhloma_hat_scale/details_Roughness.png"
         }
     ],
     "accessors" : [
@@ -246,50 +203,42 @@
         {
             "buffer" : 0,
             "byteLength" : 5904,
-            "byteOffset" : 0,
-            "target" : 34962
+            "byteOffset" : 0
         },
         {
             "buffer" : 0,
             "byteLength" : 5904,
-            "byteOffset" : 5904,
-            "target" : 34962
+            "byteOffset" : 5904
         },
         {
             "buffer" : 0,
             "byteLength" : 3936,
-            "byteOffset" : 11808,
-            "target" : 34962
+            "byteOffset" : 11808
         },
         {
             "buffer" : 0,
             "byteLength" : 3984,
-            "byteOffset" : 15744,
-            "target" : 34963
+            "byteOffset" : 15744
         },
         {
             "buffer" : 0,
             "byteLength" : 31980,
-            "byteOffset" : 19728,
-            "target" : 34962
+            "byteOffset" : 19728
         },
         {
             "buffer" : 0,
             "byteLength" : 31980,
-            "byteOffset" : 51708,
-            "target" : 34962
+            "byteOffset" : 51708
         },
         {
             "buffer" : 0,
             "byteLength" : 21320,
-            "byteOffset" : 83688,
-            "target" : 34962
+            "byteOffset" : 83688
         },
         {
             "buffer" : 0,
             "byteLength" : 21720,
-            "byteOffset" : 105008,
-            "target" : 34963
+            "byteOffset" : 105008
         }
     ],
     "samplers" : [
@@ -301,7 +250,7 @@
     "buffers" : [
         {
             "byteLength" : 126728,
-            "uri" : "khokhloma_hat.bin"
+            "uri" : "khokhloma_hat_scale.bin"
         }
     ]
 }
