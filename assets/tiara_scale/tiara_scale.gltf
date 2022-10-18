@@ -1,0 +1,277 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "tiara",
+            "scale" : [
+                0.07751920074224472,
+                0.022605780512094498,
+                0.07751920074224472
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "silver",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "red",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.299",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TEXCOORD_0" : 7,
+                        "TEXCOORD_1" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "silver_normal",
+            "uri" : "tiara_scale/silver_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silver_baseColor-silver_occlusionRoughnessMetallic",
+            "uri" : "tiara_scale/silver_baseColor-silver_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silver_occlusionRoughnessMetallic",
+            "uri" : "tiara_scale/silver_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "red_baseColor",
+            "uri" : "tiara_scale/red_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "red_occlusionRoughnessMetallic",
+            "uri" : "tiara_scale/red_occlusionRoughnessMetallic.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 235705,
+            "max" : [
+                1.0803991556167603,
+                1.8207626342773438,
+                0.3431816101074219
+            ],
+            "min" : [
+                -1.0987725257873535,
+                -1.5659866333007812,
+                -1.7139524221420288
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 235705,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 235705,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 235705,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5125,
+            "count" : 818544,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 10209,
+            "max" : [
+                0.9984918832778931,
+                1.4386978149414062,
+                0.32424259185791016
+            ],
+            "min" : [
+                -1.0077166557312012,
+                -1.1975936889648438,
+                -0.36778438091278076
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 10209,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 10209,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 10209,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 38064,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2828460,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2828460,
+            "byteOffset" : 2828460
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1885640,
+            "byteOffset" : 5656920
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1885640,
+            "byteOffset" : 7542560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3274176,
+            "byteOffset" : 9428200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 122508,
+            "byteOffset" : 12702376
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 122508,
+            "byteOffset" : 12824884
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81672,
+            "byteOffset" : 12947392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81672,
+            "byteOffset" : 13029064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 76128,
+            "byteOffset" : 13110736
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 13186864,
+            "uri" : "tiara_scale.bin"
+        }
+    ]
+}
